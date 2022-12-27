@@ -1,0 +1,50 @@
+body {
+ background-image: url('images/christmas.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ -ms-background-size: cover;
+ background-size: cover;
+ text-align: center;
+} 
+
+h2 {
+ font-size: 100px;
+ color:#990000;
+}
+
+html, body {
+ height: 100%
+}
+
+div#wrapper {
+ background-image: url('images/snowflake.png'), url('images/snowflake3.png'), url('images/snowflake2.png');
+ height:100%;
+ -webkit-animation: snow 20s linear infinite;
+ -moz-animation: snow 20s linear infinite;
+ -ms-animation: snow 20s linear infinite;
+ animation: snow 20s linear infinite;
+} 
+
+@keyframes snow {
+ 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+ 
+@-moz-keyframes snow {
+ 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+ 
+@-webkit-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+ 
+@-ms-keyframes snow {
+ 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+} 
+
